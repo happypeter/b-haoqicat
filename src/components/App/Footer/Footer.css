@@ -1,0 +1,17 @@
+.footer-wrap {
+  height: 400px;
+  background-color: #484040;
+}
+
+.footer {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.footer span {
+  display: block;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+  padding-bottom: 20px;
+}

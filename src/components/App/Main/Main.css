@@ -1,0 +1,86 @@
+.main .banner-wrap {
+  background-color: #00bcd4;
+}
+
+.main .banner {
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.main .banner h3 {
+  padding: 60px 0;
+  font-size: 36px;
+}
+
+.main .banner p {
+  padding-bottom: 100px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.main .web {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.main .info {
+  width: 400px
+}
+
+.main .info h5 {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 36px;
+}
+
+.main .info p {
+  font-size: 18px;
+  color: #291B1B;
+}
+
+.main .app-wrap {
+  background-color: #00bcd4;
+}
+
+.main .app {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.main .app-info {
+  color: #fff;
+}
+
+.main .app-info p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.main .icon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  line-height: 200px;
+  font-size: 46px;
+  color: #7ED321;
+}
+
+.main .wechat {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.main .wechat-info {
+  padding-top: 100px;
+}

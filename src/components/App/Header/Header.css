@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo img {
+  width: 60px;
+  margin-left: 50px;
+}
+
+.header h1 {
+  line-height: 100px;
+  color: #595151;
+  font-size: 25px;
+  margin-left: 20px;
+}
