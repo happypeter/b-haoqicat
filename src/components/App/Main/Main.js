@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WebIcon from './WebIcon.js'
 import WeChat from './WeChat.js'
+import Works from './Works.js'
 import './Main.css'
 
 class Main extends Component {
@@ -36,6 +37,8 @@ class Main extends Component {
             <p>我们做微信公众号开发，也做微信小程序开发。不管用户是安卓手机还是苹果，其实都不重要，因为大部分时间他们都待在微信里。好奇猫帮您的企业跟客户在微信中实现内容订阅，登录认证，商品支付等各种方式亲密接触。</p>
           </div>
         </div>
+        <div className="line"></div>
+        <Works />
       </div>
     )
   }

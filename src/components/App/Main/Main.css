@@ -84,3 +84,53 @@
 .main .wechat-info {
   padding-top: 100px;
 }
+
+.line {
+  height: 100px;
+  background-color: #00bcd4;
+}
+
+.we-works {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+.we-works h5 {
+  font-size: 36px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.we-works .works {
+  display: flex;
+  justify-content: space-between;
+}
+
+.we-works .works .card {
+  position: relative;
+}
+
+
+.backdrop {
+  position: absolute;
+  display: flex;
+  right: 0px;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  text-align: center;
+  font-size: 24px;
+  align-items: center;
+  transition: all 0.5s;
+  transform: rotateX(90deg);
+}
+
+.we-works .works .card:hover .backdrop{
+  transform: rotateX(0deg);
+  background: rgba(0, 188, 212, 0.84);
+}
+
+.backdrop span {
+  margin: 0 auto;
+}
