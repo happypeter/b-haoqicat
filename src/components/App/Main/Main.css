@@ -3,13 +3,20 @@
 }
 
 .main .banner {
+  display: flex;
+  justify-content: space-around;
   max-width: 1024px;
   margin: 0 auto;
   color: #fff;
+  padding: 50px 0;
+}
+
+.main .banner .hero-text {
+  width: 400px
 }
 
 .main .banner h3 {
-  padding: 60px 0;
+  padding: 30px 0;
   font-size: 36px;
 }
 
@@ -19,12 +26,16 @@
   color: rgba(255, 255, 255, 0.8);
 }
 
+.main .banner img {
+}
+
 .main .web {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1024px;
   margin: 0 auto;
   padding: 100px 0;
+  background-color: #fff;
 }
 
 .main .info {
@@ -48,7 +59,7 @@
 
 .main .app {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1024px;
   margin: 0 auto;
   padding: 100px 0;
@@ -75,10 +86,10 @@
 
 .main .wechat {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   max-width: 1024px;
   margin: 0 auto;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .main .wechat-info {
@@ -104,11 +115,16 @@
 
 .we-works .works {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .we-works .works .card {
   position: relative;
+}
+
+.we-works .works .card img {
+  width: 300px;
+  display: block;
 }
 
 
@@ -133,4 +149,170 @@
 
 .backdrop span {
   margin: 0 auto;
+}
+
+
+@media (max-width: 950px) {
+  .we-works .works {
+    flex-direction: column;
+  }
+
+  .we-works .works .card ,.we-works .works .card img {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .we-works .works .card {
+    margin-bottom: 50px;
+  }
+
+  .main .wechat {
+    flex-direction: column;
+  }
+
+  .main .wechat img {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  .main .wechat-info {
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .main .app {
+    flex-direction: column;
+  }
+
+  .main .app .info {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .main .app .icon {
+    margin: 0 auto;
+    order:  -1;
+  }
+
+  .main .web {
+    position: relative;
+    flex-direction: column;
+    z-index: 100;
+  }
+
+  .main .web img {
+    width: 50vw;
+    margin: 0 auto;
+  }
+
+  .main .web .info {
+    width: 90vw;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .main .banner {
+    position: relative;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .main .banner .hero-text{
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .main .banner h3 {
+    text-align: center;
+  }
+
+  .main .banner p {
+    display: block;
+    width: 90vw;
+    margin: 0 auto;
+    padding-bottom: 200px;
+  }
+
+  .main .banner img {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 201px);
+  }
+}
+
+@media (max-width: 450px) {
+  .we-works {
+    padding: 0px
+  }
+
+  .we-works h5 {
+    padding: 30px 0;
+    font-size: 24px;
+  }
+
+  .main .wechat {
+    padding: 30px 0;
+  }
+
+  .main .wechat-info {
+    padding-top: 30px;
+  }
+
+  .main .wechat-info h5 {
+    padding-bottom: 16px;
+    font-size: 24px;
+  }
+
+  .main .wechat-info p {
+    font-size: 14px;
+  }
+
+  .main .app {
+    padding: 30px 0;
+  }
+
+  .main .app .info {
+    margin-top: 30px;
+  }
+
+  .main .app .info h5 {
+    padding-bottom: 16px;
+    font-size: 24px
+  }
+
+  .main .app .info p {
+    font-size: 14px;
+  }
+
+  .main .web {
+    padding: 30px 0;
+  }
+
+  .main .web h5 {
+    padding-bottom: 16px;
+    font-size: 24px;
+  }
+
+  .main .web p {
+    font-size: 14px;
+  }
+
+  .main .banner img {
+    width: 300px;
+    left: calc(50% - 150px);
+    top: 250px
+  }
+}
+
+@media (max-width: 375px) {
+  .main .banner img {
+    top: 250px
+  }
+}
+
+@media (max-width: 320px) {
+  .main .banner img {
+    top: 300px
+  }
 }

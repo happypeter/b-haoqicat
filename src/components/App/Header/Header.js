@@ -4,11 +4,13 @@ import './Header.css'
 class Header extends Component {
   render () {
     return (
-      <div className='header'>
-        <div className="logo">
-          <img src={require('../../images/logo.svg')} />
+      <div className="header-warp">    
+        <div className='header'>
+          <div className="logo">
+            <img src={require('../../images/logo.svg')} />
+          </div>
+          <h1>好奇猫工作室</h1>
         </div>
-        <h1>好奇猫工作室</h1>
       </div>
     )
   }

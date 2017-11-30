@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="403px" height="299px" viewBox="0 0 403 299" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>cat-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="好奇猫工作室" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-699.000000, -213.000000)">
+            <g id="hero" transform="translate(0.000000, 158.000000)" fill="#00BCD4">
+                <rect id="hero-bg" x="0" y="0" width="1203" height="410"></rect>
+            </g>
+            <g id="cat-bg" transform="translate(699.000000, 213.000000)" fill-rule="nonzero" fill="#FFFFFF" opacity="0.398320896">
+                <g id="Page-1">
+                    <g id="首页">
+                        <g id="hero">
+                            <g id="cat-bg" transform="translate(0.000000, 0.544288)">
+                                <ellipse id="head" cx="201.224608" cy="164.273487" rx="181.759492" ry="133.879407"></ellipse>
+                                <path d="M401.169822,0 C360.63048,0 277.55814,54.0365124 277.55814,54.0365124 L369.435998,131.543657 C369.435998,131.543657 411.945845,34.3951001 401.169822,0 Z" id="Path-2"></path>
+                                <path d="M-3.06421555e-14,0 C40.5393434,0 123.611684,54.0365124 123.611684,54.0365124 L31.7338244,131.543657" id="Path-2"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

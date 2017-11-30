@@ -10,8 +10,11 @@ class Main extends Component {
       <div className='main'>
         <div className="banner-wrap">
           <div className="banner">
-            <h3>我们做美丽而有用的东西</h3>
-            <p>好奇猫用 Html5 的技术，让您在全平台<br />最高效的连接您的客户</p>
+            <div className="hero-text">
+              <h3>你的私人开发团队</h3>
+              <p>伟大的想法还缺一个优秀的程序员去实现？我们就是你要找的技术伙伴</p>
+            </div>
+            <img src={require('../../images/cat-bg.svg')} />
           </div>
         </div>
         <div className="web" >
