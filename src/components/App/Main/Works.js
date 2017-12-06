@@ -55,33 +55,39 @@ class Works extends React.Component {
             onMouseOver={this.handleMouseOver.bind(this,1)}
             onMouseOut={this.handleMouseOut.bind(this,1)}
             >
-            <div className="backdrop"
-              style={this.state.show1 ? backdropStyle : null}
-              >
-              <span>毛豆网</span>
-            </div>
-            <img src={require('../../images/work-demo2.png')} />
+            <a href="https://maodou.io/" target="_blank">
+              <div className="backdrop"
+                style={this.state.show1 ? backdropStyle : null}
+                >
+                <span>毛豆网</span>
+              </div>
+              <img src={require('../../images/work-demo2.png')} />
+            </a>
           </div>
           <div className="card"
             onMouseOver={this.handleMouseOver.bind(this,2)}
             onMouseOut={this.handleMouseOut.bind(this,2)}
             >
-            <div className="backdrop"
-              style={this.state.show2 ? backdropStyle : null}
-              >
-              <span>共享教育</span>
-            </div>
-            <img src={require('../../images/work-demo1.png')} />
+            <a href="https://zhikucool.com/" target="_blank">
+              <div className="backdrop"
+                style={this.state.show2 ? backdropStyle : null}
+                >
+                <span>共享教育</span>
+              </div>
+              <img src={require('../../images/work-demo1.png')} />
+            </a>
           </div>
           <div className="card"
             onMouseOver={this.handleMouseOver.bind(this,3)}
             onMouseOut={this.handleMouseOut.bind(this,3)}
             >
-            <div className="backdrop"
-              style={this.state.show3 ? backdropStyle : null}
-              >
-              <span>房地产</span>
-            </div>
+            <a href="http://gomeifang.com/" target="_blank">
+              <div className="backdrop"
+                style={this.state.show3 ? backdropStyle : null}
+                >
+                <span>环球地产</span>
+              </div>
+            </a>
             <img src={require('../../images/work-demo.png')} />
           </div>
         </div>
